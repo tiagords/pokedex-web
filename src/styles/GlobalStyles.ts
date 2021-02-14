@@ -10,7 +10,9 @@ export default createGlobalStyle`
 
   body{
     background: #FAFAFB;
+    background: url('/assets/images/background-pokedex.svg') no-repeat 70% top #FAFAFB;
     -webkit-font-smoothing: antialiased;
+    background-size: 35%;
   }
 
   body, input, button{
@@ -18,7 +20,7 @@ export default createGlobalStyle`
     font-family: 'Roboto', sans-serif;
   }
 
-  #root {
+  #__next {
     max-width: 1140px;
     margin: 0 auto;
     padding: 40px 15px;
